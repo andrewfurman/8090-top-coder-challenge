@@ -12,7 +12,11 @@
       "Bash(./analyze_cases.sh:*)",
       "Bash(./pattern_analysis.sh:*)",
       "Bash(./success_analysis.sh:*)",
-      "Bash(echo:*)"
+      "Bash(echo:*)",
+      "Bash(mkdir:*)",
+      "Bash(mv:*)",
+      "Bash(touch:*)",
+      "Bash(ln:*)"
     ],
     "deny": []
   }
