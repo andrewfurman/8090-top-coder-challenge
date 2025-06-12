@@ -1,8 +1,8 @@
-modules = ["bash", "nodejs-20"]
+modules = ["bash", "nodejs-20", "python-3.11"]
 
 [nix]
 channel = "stable-24_05"
-packages = ["jq", "bc"]
+packages = ["bc", "glibcLocales", "jq"]
 
 [workflows]
 runButton = "Run"
